@@ -33,5 +33,9 @@
 			  });*/
 	}
 	 $("#primary-menu").xBlogFreeAccessibleDropDown();
+
+	 $("button.menu-toggle").focus(function() {
+			$(this).parents("#site-navigation").addClass("toggled");
+	}) 
 	
 }( jQuery ) );
