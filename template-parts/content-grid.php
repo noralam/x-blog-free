@@ -18,7 +18,7 @@ $x_blog_free_arclass = 'card';
 }
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class($x_blog_free_arclass); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class( esc_attr($x_blog_free_arclass) ); ?>>
 	<div class="content-grid">
 		<div class="grid-img">
 			<?php if( $x_blog_free_posts_image == '1' ): ?>
