@@ -3,6 +3,9 @@ body{
     font-size:16px;
     font-weight: 400;
 }
+a:hover{
+    text-decoration: underline;
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
@@ -22,6 +25,10 @@ main#main {
     display: flex;
     flex-flow: row wrap;
 }
+.main-navigation ul li ul li {
+    display: block;
+    width: 100%;
+} 
 .baby-container {
     width: auto;
     max-width: 1500px;
@@ -295,7 +302,7 @@ button.mini-toggle {
     }
     .main-navigation ul ul button.mini-toggle {
         top: 7px;
-        right: -18px;
+        right: 4px;
     }
     .main-navigation ul >li {
         position: relative;
