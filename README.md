@@ -1,10 +1,10 @@
 ### XBLOG Free Demo Link
 
-[http://wpthemespace.com/xblog/xdemo/]
+http://wpthemespace.com/xblog/xdemo/
 
 ### XBLOG Free More Details
 
-[https://wpthemespace.com/product/x-blog-free/]
+https://wpthemespace.com/product/x-blog-free/
 
 
 
